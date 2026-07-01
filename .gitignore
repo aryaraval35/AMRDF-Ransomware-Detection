@@ -1,20 +1,23 @@
-# Dataset (too large for GitHub — over 100MB limit)
-Data/raw/*.csv
-
-# Python cache
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-*.pyc
-
 # Virtual environment
 venv/
 env/
+.venv/
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Large output files
+# Outputs
 outputs/reports/*.csv
