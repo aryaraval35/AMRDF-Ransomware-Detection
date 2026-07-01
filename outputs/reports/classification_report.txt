@@ -1,0 +1,18 @@
+AMRDF — XGBoost Classification Report
+Dataset: CIC-MalMem-2022
+=======================================================
+Accuracy  : 99.9772%
+Precision : 99.9545%
+Recall    : 100.0000%
+F1-Score  : 99.9773%
+ROC-AUC   : 1.000000
+=======================================================
+
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      4395
+   Malicious       1.00      1.00      1.00      4395
+
+    accuracy                           1.00      8790
+   macro avg       1.00      1.00      1.00      8790
+weighted avg       1.00      1.00      1.00      8790
